@@ -12,6 +12,9 @@
 .navbar-brand h1, content-title {
   font-weight: bold;
 }
+.nav-item {
+  text-align: center;
+}
 
 /* content */
 .box {
