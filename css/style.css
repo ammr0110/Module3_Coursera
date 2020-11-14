@@ -1,1 +1,33 @@
+/* header */
+#header-nav {
+	border-bottom: 3px solid #000;
+}
+.navbar-brand a {
+	color: #000;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+	color: blue;
+}
+.navbar-brand h1, .content-title {
+	font-weight: bold;
+}
+.nav-item {
+	text-align: center;
+}
 
+.navbar-toggler:hover {
+	background-color: #fff;
+}
+
+/* content */
+.box {
+	margin: 5px 5px 30px;
+	padding: 15px; 
+}
+
+@media (min-width: 974px) {
+	#nav-list {
+		display: none;
+	}
+}
